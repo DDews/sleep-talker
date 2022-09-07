@@ -1,7 +1,17 @@
 # Sleep-Talker - Text-speech obfuscator
 
-This web app hosts a web-api and webapp with user interface.
+This  hosts a web-api and webapp with user interface.
+
 It allows a user to convert any english text into "sleep talked" text, by obfuscating english words to other english words with similar phonemes.
+
+
+# Example
+
+`Bears. Beets. Battlestar galactica.` -> `Bears. Beets. bacon galaxy.`
+
+`The quick fox jumps over the lazy dog` -> `ther quickly forms jumps oder them lawyer donor`
+
+`This is such a dumb application` -> `thigh is sushi a durban agri`
 
 # Setup and Install
 
