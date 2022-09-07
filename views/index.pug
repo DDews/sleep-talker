@@ -1,0 +1,21 @@
+html
+    head
+      link(rel='stylesheet', href='static/style.css')
+      link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Karla')
+      script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+      script(src="static/view.js")
+      title=title
+    body
+      h1=title
+      h4=message
+      form(name="form")
+        div.parent
+          textarea(id="text1")
+        div.text
+          div.center
+            button(id="up") ^
+          div.center
+            button(id="down") v
+        div.parent
+          textarea(id="text2")
+
